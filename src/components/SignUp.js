@@ -74,7 +74,7 @@ export default function SignUp() {
     };
     console.log(formData)
     const url =
-      "http://localhost:3000/registerUptodate";
+      "https://lit-brushlands-50303.herokuapp.com/registerUptodate";
     axios
       .post(url, queryString.stringify(formData))
       .then((res) => {
